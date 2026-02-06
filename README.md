@@ -24,13 +24,15 @@ tanqi-selenium-crawler/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Usage
 
 1. Install dependencies
-
+```text
 pip install -r requirements.txt
-
+```
 2. Run the crawler
-
+```text
 python main.py
+```
