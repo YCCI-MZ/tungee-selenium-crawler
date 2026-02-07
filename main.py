@@ -23,11 +23,11 @@ account_login_tab.click()
 
 # 2. 输入手机号
 phone_input = driver.find_element(By.XPATH, '//input[@placeholder="请输入手机号码"]')
-phone_input.send_keys("15268803986")  # <-- 在这里填你的手机号
+phone_input.send_keys("")  # <-- 在这里填你的手机号
 
 # 3. 输入密码
 password_input = driver.find_element(By.XPATH, '//input[@placeholder="请输入密码"]')
-password_input.send_keys("15268803986ycz")  # <-- 在这里填你的密码
+password_input.send_keys("")  # <-- 在这里填你的密码
 
 # 4. 点击登录按钮
 login_button = driver.find_element(By.XPATH, '//button[contains(@class, "ant-btn-primary")]')
